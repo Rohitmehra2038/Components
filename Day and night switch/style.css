@@ -1,0 +1,294 @@
+.box {
+  position: relative;
+  width: 400px;
+  height: 972px;
+}
+
+.box .component {
+  position: fixed;
+  width: 400px;
+  height: 972px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #9747ff;
+}
+
+.box .property-sun {
+  top: 20px;
+  background-color: #68adff;
+  position: absolute;
+  width: 360px;
+  height: 144px;
+  left: 20px;
+  border-radius: 200px;
+  overflow: hidden;
+  box-shadow: inset 0px 4px 6px #00000040, inset 0px -4px 6.3px #00000040, 0px 5px 4px #ffffffcc, 0px -4px 4px #00000040;
+}
+
+.box .overlap {
+  position: absolute;
+  width: 432px;
+  height: 300px;
+  top: -78px;
+  left: -72px;
+}
+
+.box .rays {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 0;
+}
+
+.box .overlap-group {
+  position: relative;
+  height: 300px;
+  border-radius: 150px;
+}
+
+.box .ellipse {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: 60px;
+  left: 60px;
+  background-color: #d9d9d933;
+  border-radius: 90px;
+}
+
+.box .div {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  top: 30px;
+  left: 30px;
+  background-color: #d9d9d933;
+  border-radius: 120px;
+}
+
+.box .ellipse-2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d933;
+  border-radius: 150px;
+}
+
+.box .clouds-front {
+  position: absolute;
+  width: 360px;
+  height: 133px;
+  top: 89px;
+  left: 72px;
+}
+
+.box .clouds-back {
+  left: 72px;
+  position: absolute;
+  width: 360px;
+  height: 132px;
+  top: 90px;
+}
+
+.box .sun-and-moon {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 90px;
+  left: 90px;
+  background-color: #fff400;
+  border-radius: 200px;
+  overflow: hidden;
+  box-shadow: inset 3px 4px 4px #feffe6bd, inset -4px -4px 4px #b3b551bd;
+}
+
+.box .moon {
+  position: relative;
+  left: 170px;
+  height: 120px;
+  background-color: #cccccc;
+  border-radius: 60px;
+  box-shadow: inset 3px 4px 4px #fefefe85, inset -4px -4px 4px #000000bd;
+}
+
+.box .spots {
+  position: relative;
+  width: 74px;
+  height: 77px;
+  top: 21px;
+  left: 24px;
+}
+
+.box .ellipse-3 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 24px;
+  background-color: #a0a0a082;
+  border-radius: 10px;
+  box-shadow: inset 4px 4px 4px #00000040;
+}
+
+.box .ellipse-4 {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 39px;
+  left: 53px;
+  background-color: #a0a0a082;
+  border-radius: 10.5px;
+  box-shadow: inset 4px 4px 4px #00000040;
+}
+
+.box .ellipse-5 {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 42px;
+  left: 0;
+  background-color: #a0a0a082;
+  border-radius: 17.5px;
+  box-shadow: inset 4px 4px 4px #00000040;
+}
+
+.box .star {
+  top: 198px;
+  left: 504px;
+  position: absolute;
+  width: 54px;
+  height: 81px;
+}
+
+.box .property-moon {
+  position: absolute;
+  width: 360px;
+  height: 144px;
+  top: 565px;
+  left: 20px;
+  background-color: #000000bd;
+  border-radius: 200px;
+  overflow: hidden;
+  box-shadow: inset 0px 4px 6px #00000040, inset 0px -4px 6.3px #00000040, 0px 5px 4px #ffffffcc, 0px -4px 4px #00000040;
+}
+
+.box .overlap-2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: -78px;
+  left: 119px;
+}
+
+.box .spots-wrapper {
+  height: 120px;
+  background-color: #cccccc;
+  border-radius: 60px;
+  box-shadow: inset 3px 4px 4px #fefefe85, inset -4px -4px 4px #000000bd;
+}
+
+.box .clouds-back-wrapper {
+  position: absolute;
+  width: 423px;
+  height: 225px;
+  top: -88px;
+  left: 433px;
+  background-image: url(./img/clouds-front-4.svg);
+  background-size: 100% 100%;
+}
+
+.box .img {
+  position: absolute;
+  width: 410px;
+  height: 208px;
+  top: 1px;
+  left: 1px;
+}
+
+.box .star-2 {
+  top: 30px;
+  left: 53px;
+  position: absolute;
+  width: 54px;
+  height: 81px;
+}
+
+.box .property-moon-2 {
+  top: 808px;
+  background-color: #000000bd;
+  position: absolute;
+  width: 360px;
+  height: 144px;
+  left: 20px;
+  border-radius: 200px;
+  overflow: hidden;
+  box-shadow: inset 0px 4px 6px #00000040, inset 0px -4px 6.3px #00000040, 0px 5px 4px #ffffffcc, 0px -4px 4px #00000040;
+}
+
+.box .overlap-3 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: -78px;
+  left: 135px;
+}
+
+.box .img-wrapper {
+  position: absolute;
+  width: 423px;
+  height: 225px;
+  top: -331px;
+  left: 433px;
+  background-image: url(./img/clouds-front-3.svg);
+  background-size: 100% 100%;
+}
+
+.box .property-sun-hover {
+  position: absolute;
+  width: 360px;
+  height: 144px;
+  top: 256px;
+  left: 20px;
+  background-color: #68adff;
+  border-radius: 200px;
+  overflow: hidden;
+  box-shadow: inset 0px 4px 6px #00000040, inset 0px -4px 6.3px #00000040, 0px 5px 4px #ffffffcc, 0px -4px 4px #00000040;
+}
+
+.box .overlap-4 {
+  position: absolute;
+  width: 403px;
+  height: 300px;
+  top: -78px;
+  left: -43px;
+}
+
+.box .clouds-front-2 {
+  position: absolute;
+  width: 360px;
+  height: 133px;
+  top: 89px;
+  left: 43px;
+}
+
+.box .clouds-back-2 {
+  left: 43px;
+  position: absolute;
+  width: 360px;
+  height: 132px;
+  top: 90px;
+}
+
+.box .star-3 {
+  top: -38px;
+  left: 504px;
+  position: absolute;
+  width: 54px;
+  height: 81px;
+}
